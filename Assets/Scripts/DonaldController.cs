@@ -33,17 +33,17 @@ public class DonaldController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (scoreObject.score < 5) {
+		if (Score.globalScore < 5) {
 			frequency = 10;
-		} else if (scoreObject.score < 10) {
+		} else if (Score.globalScore < 10) {
 			frequency = 8;
-		} else if (scoreObject.score < 20){
+		} else if (Score.globalScore < 20){
 			frequency = 6;
-		} else if (scoreObject.score < 30){
+		} else if (Score.globalScore < 30){
 			frequency = 4;
-		} else if (scoreObject.score < 40){
+		} else if (Score.globalScore < 40){
 			frequency = 3;
-		} else if (scoreObject.score < 50){
+		} else if (Score.globalScore < 50){
 			frequency = 2;
 		}
 
